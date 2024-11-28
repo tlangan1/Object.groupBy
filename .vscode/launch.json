@@ -1,0 +1,32 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Object.groupBy.js",
+      "outputCapture": "std",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\Object.groupBy.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch displayTest.js",
+      "outputCapture": "std",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\displayTest.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Console.js",
+      "outputCapture": "std",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\console.js"
+    }
+  ]
+}
